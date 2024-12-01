@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: hsl(24, 5%, 18%);
+  margin-top: 20px;
+}
+
+p {
+  font-family: "outfit", sans-serif;
+  font-size: 1rem;
+  color: hsl(30, 10%, 34%);
+  margin: 10px 0 20px;
+}
+
+.time {
+  background-color: hsl(30, 54%, 90%, 0.5);
+  padding-left: 10px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: "outfit", serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 5px;
+}
+
+ul {
+  /* list-style: none; */
+  margin-bottom: 20px;
+  font-family: "outfit", sans-serif;
+  padding: 20px;
+}
+
+ul li {
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 5px;
+}
+
+ol {
+  /* list-style: none; */
+  margin-bottom: 20px;
+  font-family: "outfit", sans-serif;
+  padding: 20px;
+}
+
+ol li {
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  font-family: "outfit", serif;
+  margin-bottom: 50px;
+}
+
+th,
+td {
+  padding: 8px;
+  font-size: 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid;
+}
+
+td {
+  font-weight: 800;
+  color: hsl(14, 45%, 36%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+hr {
+  /* color: hsl(30, 54%, 90%); */
+  margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 375px) {
+  .container {
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p,
+  ul li,
+  ol li,
+  th,
+  td {
+    font-size: 0.8rem;
+  }
+}
